@@ -1,0 +1,10 @@
+MCR (matlab compiler runtime environment) Installation -
+Click on mac installer for MCR supplied and follow the instructions on the screen.
+
+Setting up environment
+Add the following two lines to the ~/.bash_profile file in your home directory, then restart the terminal (Note: incase matlab compiler is installed at some other location, change the path):
+
+export DYLD_LIBRARY_PATH=/Applications/MATLAB/MATLAB_Runtime/v91/runtime/maci64:/Applications/MATLAB/MATLAB_Runtime/v91/bin/maci64:/Applications/MATLAB/MATLAB_Runtime/v91/sys/os/maci64
+
+export XAPPLRESDIR=/Applications/MATLAB/MATLAB_Runtime/v91/X11/app-default
+

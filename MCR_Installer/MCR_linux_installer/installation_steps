@@ -1,0 +1,37 @@
+Matlab Compiler Runtime can be installed as superuser or locally.
+
+Steps to install MCR as superuser: 
+
+< sudo ./install -mode automated -argreeToLicense yes>  in the MCR_installer directory and follow the instructions on the screen.
+
+
+
+Steps to install MCR locally: 
+
+
+Step 1: create installation directory 
+(example: mkdir /path/directory/MATLAB/MATLAB_Compiler_Runtime).
+
+  
+Step 2 run the command
+ <./install -mode automated -argreeToLicense yes > 
+
+
+
+
+Setting up environment
+Run the command < sh run_PRESULT.sh <mcr_directory_location> [argument_list] >
+Example: sh run_PRESULT.sh /path/to/mcr directory/v84 train_test1 RF --input_data pid_raw_data.txt --out test
+
+<mcr_directory> = the complete path where your matlab compiler runtime is installed  
+Example: /path to mcr/MATLAB_Compiler_Runtime/v84 (Note: we have created MCR installation directory in step 1 above)
+
+[argument_list] = list of arguments to launch the program 
+Example: train_test1 RF --input_data pid_raw_data.txt --out test
+
+Copy and paste the below mentioned LD_LIBRARY_PATH in your .bash_profile and restart the terminal (PLEASE REPLACE THE "<mcr_directory>" with the actual path of your MCR directory) 
+
+export LD_LIBRARY_PATH=<mcr_directory>/runtime/glnxa64:/<mcr_directory>/bin/glnxa64:<mcr_directory>/sys/os/glnxa64:<mcr_directory>/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:<mcr_directory>/sys/java/jre/glnxa64/jre/lib/amd64/server:<mcr_directory>/sys/java/jre/glnxa64/jre/lib/amd64/client:<mcr_directory>/sys/java/jre/glnxa64/jre/lib/amd64/
+
+export XAPPLRESDIR=<mcr_directory>/X11/app-defaults 
+
