@@ -336,7 +336,7 @@ Q: How can I cite PRESULT?
 A: Please cite the following paper:  
 
 Q: How can I report a bug in PRESULT?
-A: Please feel free to send your questions, comments and suggestions at FShankaracharya@mdanderson.org
+A: Please feel free to send your questions, comments and suggestions at shankaracharyaf@gmail.com
 
 Q: what if I am getting this error message 
 “./PRESULT: error while loading shared libraries: libmwlaunchermain.so: cannot open shared object file: No such file or directory”?
