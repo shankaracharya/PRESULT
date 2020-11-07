@@ -91,7 +91,7 @@ export XAPPLRESDIR=<mcr_directory>/X11/app-defaults
 
 
 2.3 Need help?
-If your question is not answered in this user’s guide, feel free to send your questions and comments at, FShankaracharya@mdanderson.org
+If your question is not answered in this user’s guide, feel free to send your questions and comments at, shankaracharyaf@gmail.com
 
 
  
